@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Curabitur sodales, erat ut fermentum eleifend, tortor ligula egestas dui,
+ Quis rhoncus nisi diam vitae nunc. 
+Quisque varius libero diam, eget venenatis ipsum feugiat sed. 
+Aliquam suscipit elit em felis gravida, pharetra porttitor massa rhoncus. 
+Suspendisse cursus rutrum Orci em porttitor. Proin nec enim tincidunt. 
+Pellentesque lobortis cursus ac dolor imperdiet. Morbi ac velit libero. 
+Donec ipsum erat, facilisis ac felis a, rhoncus accumsan NIBH.
+ Nam sit amet nisl não turpis Viverra hendrerit. 
+Pellentesque em Tellus cursus mi Pellentesque vestíbulo vel em libero. 
+Cras placerat, erat imperdiet vehicula adipiscing, dolor nisi ultrices ligula, 
+vitae Ornare Orci felis porttitor leo. Vestíbulo ut purus eros.
+ Donec posuere ultricies mauris id posuere. Fusce vel sollicitudin Lectus. 
+Suspendisse euismod Tellus eu urna sodales, Quis scelerisque velit posuere.
+
+Sed lorem blandit em elit imperdiet consectetur.
+Proin iaculis velit ut libero molestie, em ullamcorper SEM Aliquam. 
+Nunc hendrerit SEM em fermentum facilisis.
+Praesent ac quam id tincidunt velit mattis um ut turpis. 
+Morbi placerat sagittis Tellus, sit amet tempor leo lobortis vitae. 
+Nullam vel tristique nunc, ne euismod Arcu. 
+Fusce lacinia mauris em dui vulputate tempor. Vivamus um est rhoncus, 
+consequat SEM vel, convallis lacus. Sed eget SEM lorem. 
+Aenean lacinia sapien sagittis tortor facilisis rhoncus. 
+Nulla placerat volutpat mauris, não porta odio blandit luctus.
+
+Quisque rutrum Purus et eros malesuada malesuada.
+Mauris euismod ultricies SEM vel faucibus.
+Morbi eget velit nec felis aliquet Ornare nec ut sem. 
+Quisque Quis ipsum hendrerit, sollicitudin nunc ut, auctor nisi. 
+Classe aptent taciti sociosqu ad litora torquent por conubia nostra, 
+por inceptos himenaeos. Aliquam vehicula mauris não SEM tincidunt porta.
+Nam ultrices erat vitae accumsan mattis. Mauris um pretium Orci. 
+Phasellus Bibendum metus lacus, vel ullamcorper odio euismod ac. 
+Nunc vel Orci eget dolor laoreet tempor.
+Aliquam laoreet vel odio QUIS Pellentesque. Aenean mollis convallis massa, 
+eu cursus Orci accumsan id. Classe aptent taciti sociosqu ad litora torquent 
+por conubia nostra, por inceptos himenaeos.
+
+Em ne condimentum massa. Nunc dictum ante id ligula ultrices faucibus. 
+Cras Quis aliquet libero. Nunc tortor quam, blandit nec condimentum sit amet,
+vehicula ut duos. Donec laoreet, nunc ue gravida ultrices,
+nisl risus feugiat Metus, vel dictum metus tortor sed ipsum. 
+Praesent Elementum adipiscing dignissim. Pellentesque em vehicula erat,
+erat non tristique. Donec vulputate, metus sit amet ullamcorper accumsan,
+magna metus egestas Arcu, eu dictum Lectus dui eu leo.
+Donec rutrum egestas ante ac ultrices. 
+Vestíbulo id nunc em velit eleifend de sempre ac id ipsum. 
+Nulla rutrum leo eros, eget malesuada Tellus faucibus sed. 
+Morbi accumsan commodo Bibendum. Em et NIBH sed enim 
+ullamcorper vestíbulo. Phasellus adipiscing vitae diam sed consectetur. 
+Praesent vitae mauris eu diam laoreet Pellentesque. Cras em dolor tempus.
+
+Morbi eros neque, porttitor sed ultricies ac, accumsan tempor velit. 
+Suspendisse potenciômetro. Nunc vel dui sapien. No sit amet iaculis justo, 
+suscipit iaculis Purus. Aliquam volutpat Bibendum risus, 
+et laoreet lacus imperdiet nec. Nulla ac NIBH Pellentesque. 
+Suspendisse id Arcu tincidunt, Tellus ditado sentar amet, egestas est. 
+Proin ac nunc metus. Integer mattis cursus nisl, 
+em porttitor risus tristique no. Phasellus neque diam, 
+porttitor et Lectus eget, mollis Bibendum velit. Sed nec est pharetra, 
+dignissim Orci vel, justo Pellentesque. Etiam rhoncus Ornare id 
+est tincidunt. Integer ac convallis sapien. Etiam sed SEM convallis, 
+rhoncus dui et, dignissim sem. Em sed enim non eros iaculis volutpat.</value>
+  </data>
+</root>
